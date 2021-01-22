@@ -60,7 +60,7 @@ print ("----------------")
 
 # Print to a text file: election_results.txt
 election_results = os.path.join("PyPoll","Output", "election_results.txt")
-with open('election_results', 'w') as text:
+with open('election_results.txt', 'w') as text:
     text.write("Election Results\n")
     text.write("---------------------------------------\n")
     text.write("Total Vote: " + str(votes) + "\n")
